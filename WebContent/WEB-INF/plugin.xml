@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id= "mx.com.unotv.workflow" name= "UNOTV Workflow Action Factory" version= "1.0.0" provider-name= "IBM" >
+<extension-point id= "UNOTVWorkflowActionFactory" name="UNOTVWorkflowActionFactory" />
+<extension point="com.ibm.workplace.wcm.api.CustomWorkflowActionFactory" id= "UNOWorkflowActionFactory" >
+<provider class= "mx.com.amx.unotv.workflow.PreRenderWorkFlowActionFactory"/>
+</extension>
+</plugin>
